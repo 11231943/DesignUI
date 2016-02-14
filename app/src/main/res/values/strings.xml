@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TabHostFrame</string>
+    <string name="action_settings">Settings</string>
+    <!-- new Home UI tabs -->
+    <string name="tab_near_people">主页</string>
+    <string name="tab_circle">圈子</string>
+    <string name="tab_message">消息</string>
+    <string name="tab_settings">我的</string>
+    <string name="tab_rainbow">赞货</string>
+</resources>

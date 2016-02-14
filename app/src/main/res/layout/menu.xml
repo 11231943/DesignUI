@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f6f6f6">
+
+    <FrameLayout
+        android:id="@+id/msgCountLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/msgCount"
+            style="@style/indicate_text"
+            android:minWidth="17dp"
+            android:visibility="gone"
+            tools:layout_gravity="center_horizontal"
+            tools:layout_marginLeft="6dp"
+            tools:text="12"
+            tools:visibility="visible" />
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radioMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_near_people"
+            style="@style/menu_button"
+            android:background="@drawable/menu_bg_selector"
+            android:drawableTop="@drawable/menu_home_selector"
+            android:text="@string/tab_near_people" />
+
+        <RadioButton
+            android:id="@+id/rb_discovery"
+            style="@style/menu_button"
+            android:background="@drawable/menu_bg_selector"
+            android:drawableTop="@drawable/menu_data_selector"
+            android:text="@string/tab_circle" />
+
+        <RadioButton
+            android:id="@+id/rb_rainbow"
+            style="@style/menu_button"
+            android:background="@drawable/menu_bg_selector"
+            android:drawableTop="@drawable/menu_rainbow_selector"
+            android:text="@string/tab_rainbow" />
+
+        <RadioButton
+            android:id="@+id/rb_msg"
+            style="@style/menu_button"
+            android:background="@drawable/menu_bg_selector"
+            android:drawableTop="@drawable/menu_msg_selector"
+            android:text="@string/tab_message" />
+
+        <RadioButton
+            android:id="@+id/rb_my"
+            style="@style/menu_button"
+            android:background="@drawable/menu_bg_selector"
+            android:drawableTop="@drawable/menu_set_selector"
+            android:text="@string/tab_settings" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d8d8d8" />
+</FrameLayout>
