@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:textSize="33sp"
-        android:text="message_fragment" />
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.wheat.test.tabhostframe.view.widget.scroller.RelationMenu
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        app:left_text="联系人"
+        app:select="left"
+        app:left_selector="@color/menu_select"
+        app:text_color="#fff"
+        app:text_size="6sp" />
+
+    <com.wheat.test.tabhostframe.view.widget.scroller.RelationMenu
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        app:right_text="最近好友"
+        app:right_selector="@color/menu_normal"
+        app:text_color="#ccc"
+        app:text_size="5sp" />
+
 </LinearLayout>

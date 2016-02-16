@@ -1,4 +1,4 @@
-package com.wheat.test.tabhostframe.view;
+package com.wheat.test.tabhostframe.view.tab;
 
 /*
  * Copyright (C) 2015 The Android Open Source Project

@@ -4,4 +4,20 @@
         <attr name="tabIndicatorMargin" format="dimension"></attr>
         <attr name="tabIndicatorRadius" format="dimension"></attr>
     </declare-styleable>
+
+    <declare-styleable name="relation_menu">
+        <attr name="left_text" format="string"></attr>
+        <attr name="right_text" format="string"></attr>
+        <attr name="left_selector" format="reference"></attr>
+        <attr name="right_selector" format="reference"></attr>
+        <attr name="text_size" format="dimension"></attr>
+        <attr name="text_color" format="color|integer"></attr>
+        <attr name="select_background" format="color"></attr>
+        <attr name="normal_background" format="color"></attr>
+        <attr name="select">
+            <enum name="right" value="1"></enum>
+            <enum name="left" value="0"></enum>
+        </attr>
+    </declare-styleable>
+
 </resources>

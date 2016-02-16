@@ -12,7 +12,7 @@ import com.wheat.test.tabhostframe.fragmnet.GoodsTabFragment;
 import com.wheat.test.tabhostframe.fragmnet.MessageFragment;
 import com.wheat.test.tabhostframe.fragmnet.MineFragment;
 import com.wheat.test.tabhostframe.fragmnet.NearbyTabFragment;
-import com.wheat.test.tabhostframe.view.FragmentTabHost;
+import com.wheat.test.tabhostframe.view.tab.FragmentTabHost;
 
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.wheat.test.tabhostframe.view;
+package com.wheat.test.tabhostframe.view.tab;
 
 import android.content.Context;
 import android.content.res.TypedArray;

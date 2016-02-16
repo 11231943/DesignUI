@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.wheat.test.tabhostframe.R;
-import com.wheat.test.tabhostframe.view.TabLayout;
+import com.wheat.test.tabhostframe.view.tab.TabLayout;
 
 /**
  * Created by wheat on 16/2/14.

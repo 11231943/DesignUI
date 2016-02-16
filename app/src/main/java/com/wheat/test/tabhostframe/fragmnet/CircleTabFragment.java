@@ -1,11 +1,7 @@
 package com.wheat.test.tabhostframe.fragmnet;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
@@ -13,9 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.wheat.test.tabhostframe.R;
-import com.wheat.test.tabhostframe.adapter.RecyclerViewAdapter;
 import com.wheat.test.tabhostframe.utils.ActionBarHelper;
-import com.wheat.test.tabhostframe.view.FragmentTabHost;
+import com.wheat.test.tabhostframe.view.tab.FragmentTabHost;
 
 /**
  * Created by wheat on 16/2/14.

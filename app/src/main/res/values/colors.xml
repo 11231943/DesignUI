@@ -14,4 +14,6 @@
     <color name="color_7">#cccc99</color>
     <color name="color_8">#cc9966</color>
     <color name="color_9">#ff99cc</color>
+    <color name="menu_select">#f1de5e</color>
+    <color name="menu_normal">#24a4e1</color>
 </resources>
