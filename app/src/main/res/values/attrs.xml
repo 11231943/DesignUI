@@ -20,4 +20,10 @@
         </attr>
     </declare-styleable>
 
+
+    <declare-styleable name="side_menu">
+        <attr name="right_padding" format="dimension"></attr>
+
+    </declare-styleable>
+
 </resources>

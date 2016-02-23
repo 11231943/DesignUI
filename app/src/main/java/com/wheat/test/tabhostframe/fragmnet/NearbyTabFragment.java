@@ -68,7 +68,7 @@ public class NearbyTabFragment extends Fragment {
         List<Fragment> fragments = new ArrayList<>();
         fragments.add(new NearTab1Fragment());
         fragments.add(new GoodsTabFragment());
-        fragments.add(new MessageFragment());
+        fragments.add(new MineFragment());
         //创建ViewPager的adapter
         FragmentAdapter adapter = new FragmentAdapter(getFragmentManager(), fragments, titles);
         mViewPager.setAdapter(adapter);
